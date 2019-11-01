@@ -9,6 +9,12 @@ steps:
   - name: report
     image: golang
     privileged: true
+    environment:
+      repo: marina-amaralsantos/drone-go-git-test
+      username:
+        from_secret: marina-amaralsantos
+      password:
+        from_secret: An6J53HDeuzEhBY3BR7cJQBNJynGu3RI
     volumes:
       - name: reports
         path: /var/reports
