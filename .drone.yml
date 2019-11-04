@@ -10,7 +10,7 @@ steps:
     image: golang
     privileged: true
     environment:
-      repo: /drone-go-git-test
+      repo: /drone-test
       username:
         from_secret: marina-amaralsantos
       password:
