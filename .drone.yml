@@ -1,6 +1,8 @@
 kind: pipeline
 name: default
 
+#Test
+
 workspace:
   base: /go
   path: src/github.com/marina-amaralsantos/go-drone-hello-world
@@ -42,4 +44,4 @@ steps:
 volumes:
   - name: reports
     host:
-      path: /home/dev/work/src/github.com/cyantarek/drone-go-git-test/reports
+      path: /home/dev/work/src/github.com/cyantarek/drone-test/reports
